@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+}
+
+#container{
+    height:100%;
+}
+
+p {
+    line-height: 1.5rem;
+}
