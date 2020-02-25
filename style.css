@@ -1,15 +1,46 @@
 * {
     margin: 0;
+    border: solid 1px grey;
 }
 
 body {
     font-size: 14px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+#container{
+        height:100%;
+        background-color: blueviolet;
+        /* height: 100vh;*/
+        width: 100vw; 
+                }
+header{
+    height: 25vh;
+    
+    background: #ffffff url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Aert_van_der_neer-paisaje-mnavarra.jpg/800px-Aert_van_der_neer-paisaje-mnavarra.jpg") no-repeat;
+    background-size: cover;
+
+}
+main{
+    position: relative;
+    height: 50vh;
+    float:left;
+    width: 70vw;
+    background-color: rgba(255,0,0,0.5);
 }
 
-#container{
-    height:100%;
-}
 
 p {
     line-height: 1.5rem;
+}
+aside{
+    clear:left;
+    height: 50vh;
+    width: 10vw;
+    background-color: palegreen;
+}
+
+footer{
+    clear:both;
+    height: 25vh;
 }
