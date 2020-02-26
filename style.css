@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    border: solid 1px grey;
+    /* border: solid 1px grey; */
 }
 
 body {
@@ -10,9 +10,9 @@ body {
 }
 #container{
         height:100%;
-        background-color: blueviolet;
+        margin:auto;
         /* height: 100vh;*/
-        width: 100vw; 
+        max-width: 1000px; 
                 }
 header{
     height: 25vh;
@@ -21,11 +21,15 @@ header{
     background-size: cover;
 
 }
+
+
 main{
-    position: relative;
+    
     height: 50vh;
-    float:left;
-    width: 70vw;
+    /* float:left; */
+    display: inline-block;
+    width: 69%;
+    /* left:10vw; */
     background-color: rgba(255,0,0,0.5);
 }
 
@@ -34,13 +38,18 @@ p {
     line-height: 1.5rem;
 }
 aside{
-    clear:left;
+
+    float: right;
     height: 50vh;
-    width: 10vw;
+    width: 30%;
+    
     background-color: palegreen;
 }
 
 footer{
-    clear:both;
+    width:100%;
+
+    /* clear:both; */
     height: 25vh;
+    background-color: blueviolet;
 }
