@@ -59,6 +59,25 @@ img:hover {
     filter:grayscale(80%);
 }
 
+@media (max-width:380px){
+    header{
+        height:40px;
+        background: #e8ad2d;
+
+    }
+
+    header nav
+
+    header nav{
+        display: none;
+    }
+    
+    aside{
+        display: none;
+    }
+
+}
+
 p {
     line-height: 1.5rem;
 }
