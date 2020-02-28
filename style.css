@@ -16,12 +16,32 @@ body {
                 }
 header{
     height: 25vh;
+    text-align: center;
     
-    background: #ffffff url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Aert_van_der_neer-paisaje-mnavarra.jpg/800px-Aert_van_der_neer-paisaje-mnavarra.jpg") no-repeat;
+    background: #ffffff url("images/banner-lion.jpg") no-repeat;
     background-size: cover;
 
 }
+header h1{
+    line-height: 25vh;
+    font-size: 3rem;
+    color: rgba(255, 217, 0, 0.6)
+}
 
+header nav{
+margin-top: -3vh;
+}
+
+header nav a{
+    font-size: larger;
+    padding-left: 1rem;
+    text-decoration: none;
+    color:#fff;
+    }
+
+header nav a:hover{
+    color: grey;
+}
 
 main{
     
@@ -30,9 +50,14 @@ main{
     display: inline-block;
     width: 69%;
     /* left:10vw; */
-    background-color: rgba(255,0,0,0.5);
+    background-color: rgba(255, 217, 0, 0.5);
 }
 
+img:hover {
+    /* opacity: 0.3; */
+    filter:drop-shadow(16px 16px 20px blue);
+    filter:grayscale(80%);
+}
 
 p {
     line-height: 1.5rem;
